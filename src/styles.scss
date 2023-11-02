@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@500;600;700&family=Roboto:wght@100;300;500;700&display=swap');
+@import 'variaveis';
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    font-family: "MontSerrat", sans-serif;
+    box-sizing: border-box;
+}
