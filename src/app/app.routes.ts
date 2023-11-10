@@ -1,5 +1,5 @@
 import { Routes } from "@angular/router";
-import { autenticadoGuard } from "./guards/autenticado.guard";
+
 
 export const AppRotas: Routes = [
     {
@@ -10,7 +10,6 @@ export const AppRotas: Routes = [
     {
         path: 'player',
         loadChildren:() => import('./pages/player/player.module').then(x => x.PlayerModule),
-        canMatch: [autenticadoGuard]
     },
     {
         path: 'login',
